@@ -1,0 +1,10 @@
+ prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+ select distinct ?MissionProfile0 ?MissionProfile_Label1 
+ where 
+ { { graph <http://www.airbus.com/Graphs/D4E>
+ { 
+?MissionProfile0 <http://www.w3.org/2000/01/rdf-schema#label> ?MissionProfile_Label1 . 
+?MissionProfile0 rdf:type <http://www.semanticweb.org/ontologies/com.nomagic.uml2.ext.magicdraw.classes.mdkernel.impl.ClassImpl@9f6d69ab#MissionProfile> } 
+ 
+} 
+  }
